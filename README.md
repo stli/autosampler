@@ -11,7 +11,15 @@ It records line input into a reusable `softcut` buffer while playing note-by-not
 
 ## Install
 
-Copy this directory to the norns code folder:
+The recommended way is maiden's REPL (`http://norns.local/maiden` → REPL):
+
+```
+;install https://github.com/stli/autosampler
+```
+
+This clones the project to `dust/code/autosampler/`. To update later, run `;update autosampler`.
+
+Alternatively, copy this directory there yourself:
 
 ```
 dust/code/autosampler/
@@ -21,7 +29,7 @@ dust/code/autosampler/
 └── README.md
 ```
 
-Restart norns, select **autosampler**, and set the external synth to receive on the configured MIDI device/channel.
+Then select **autosampler** from the script list (restart norns if it does not appear) and set the external synth to receive on the configured MIDI device/channel.
 
 ## Quick start
 
